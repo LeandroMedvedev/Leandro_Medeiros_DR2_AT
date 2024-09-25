@@ -1,17 +1,34 @@
 {
   "name": "leandro-medeiros-dr2-at",
   "version": "0.1.0",
-  "private": true,
+  "description": "Avaliação de competências técnicas do aluno do Instituto Infnet",
+  "main": "src/index.js",
+  "license": "MPL-2.0",
+  "author": {
+    "name": "Leandro Medeiros",
+    "email": "medvedevleandro@outlook.com",
+    "url": "https://github.com/LeandroMedvedev/Leandro_Medeiros_DR4_TP3"
+  },
+  "keywords": [
+    "Infnet",
+    "assessment",
+    "Leandro Medeiros"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
+    "react-svg": "^16.1.34",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "lint": "eslint 'src/**/*.{js,jsx}'",
+    "lint:fix": "eslint 'src/**/*.{js,jsx}' --fix",
+    "format": "prettier --write 'src/**/*.{js,jsx}'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +51,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@eslint/js": "^9.11.1",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.36.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3"
   }
 }

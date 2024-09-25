@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900');
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+:root {
+  /* colors */
+  --white: #fff;
+  --black: #000;
+  --white-smoke: #f8f8f8;
+  --lavender-blush: #faf5f6;
+  --wild-sand: #e7e4df;
+  --light-grey: #d2d2d2;
+  --moccaccino: #5c2b2b;
+  --biloba-flower: #ab85eb;
+  --dark-aubergine: #2c001e;
+  --light-aubergine: #77216f;
+  --ubuntu-orange: #e95420;
+  --dark-red: #ac1015;
+  --ciano: #0f4d5f;
+  --sky-blue: #61dafb;
+  --shuttle-grey: #5f6368;
+  --ebony: #282c34;
+  --midnight-blue: #181a1f;
+  --github-graffiti: #151b23;
+  --black-russian: #03031b;
+  --github-green: #3b8640;
+
+  /* fonts */
+  --font-alegreya: 'Alegreya', serif;
+  --font-genos: 'Genos', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-ibm-plex-mono: 'IBM Plex Mono', monospace;
+  --font-syne-mono: 'Syne Mono', monospace;
+  --font-mynerve: 'Mynerve', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  min-height: 100vh;
+  font-family: Alegreya, system-ui;
+  text-align: center;
+  background-color: var(--white-smoke);
+  color: var(--ebony);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--ebony);
+}
+
+.link:hover {
+  font-weight: 900;
+  font-size: 1.13rem;
+}
+
+p {
+  text-align: justify;
+  text-indent: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--ebony);
+    color: var(--white);
+  }
+
+  a {
+    color: var(--white);
+  }
+}

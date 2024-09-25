@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 📚 Assessment | Fundamentos do React ⚛️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao **Assessment**!
 
-## Available Scripts
+## 🌐 Implantação
 
-In the project directory, you can run:
+O projeto está disponível em:  
+**[https://github.com/LeandroMedvedev/Leandro_Medeiros_DR2_AT](https://github.com/LeandroMedvedev/Leandro_Medeiros_DR2_AT)**
 
-### `npm start`
+## 🛠️ Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js
+- React
+- CSS Modules
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Pré-requisitos
 
-### `npm test`
+Antes de começar, você vai precisar ter instalado em sua máquina:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org) (versão 14 ou superior)
+- [npm](https://www.npmjs.com) ou [Yarn](https://yarnpkg.com)
 
-### `npm run build`
+### 📂 Clonando o repositório
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Primeiro, clone o repositório para sua máquina local usando o comando:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git git@github.com:LeandroMedvedev/Leandro_Medeiros_DR2_AT.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📦 Instalando as dependências
 
-### `npm run eject`
+Navegue até o diretório do projeto e instale as dependências:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd Leandro_Medeiros_DR2_AT
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ou, se preferir usar Yarn:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+yarn install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🚀 Rodando o projeto
 
-## Learn More
+Agora, para iniciar o servidor localmente, execute:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Ou, com Yarn:
 
-### Code Splitting
+```bash
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Pronto! Seu aplicativo estará rodando em `http://localhost:3000`.
 
-### Analyzing the Bundle Size
+## 🤝 Contribuindo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
 
-### Making a Progressive Web App
+## 📝 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Este projeto está licenciado sob a [MPL-2.0](https://opensource.org/licenses/MPL-2.0) - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-### Advanced Configuration
+## 📧 Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Leandro Medvedev  
+Email: medvedevleandro@outlook.com  
+GitHub: [LeandroMedvedev](https://github.com/LeandroMedvedev)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com:  
+![alt text](./src/assets/svgs/react.svg)
