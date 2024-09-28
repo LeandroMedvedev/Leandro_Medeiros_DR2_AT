@@ -182,13 +182,13 @@ const HOTELS = [
   {
     id: 8,
     name: 'Hotel PCE byDet XOPOWO',
-    location: 'Москва, Россия',
+    location: 'Moscou, Rússia',
     price: 250,
     rating: 4.1,
     imageUrl: hotelEight,
     images: [imgTwentyTwo, imgTwentyThree, imgTwentyFour],
     description:
-      'Отель в центре Москвы с традиционным русским гостеприимством и современными удобствами.',
+      'Um hotel no centro de Moscou com a tradicional hospitalidade russa e comodidades modernas.',
     services:
       'Wi-Fi gratuito, Restaurante, Estacionamento, Serviço de quarto 24h, Spa',
   },

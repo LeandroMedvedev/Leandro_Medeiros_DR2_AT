@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container > p {
+  font-size: 1.5rem;
+  text-indent: 0;
+}
+
+.icon svg {
+  width: 200px;
+  fill: var(--midnight-blue);
+}
+
+.returnButton {
+  padding: 10px 20px;
+  border: 1px solid var(--ubuntu-orange);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: var(--font-montserrat);
+  text-align: center;
+  text-decoration: none;
+  transition:
+    background-color 0.8s ease,
+    color 0.8s ease,
+    border 0.8s ease;
+  background-color: var(--ubuntu-orange);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.returnButton:hover {
+  background-color: var(--white);
+  color: var(--ubuntu-orange);
+  border: 1px solid var(--ubuntu-orange);
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: var(--github-graffiti);
+  }
+
+  .icon svg {
+    fill: var(--white);
+  }
+
+  .container > p {
+    color: var(--white);
+  }
+}

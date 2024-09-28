@@ -18,3 +18,13 @@
     font-size: 2.8rem;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: var(--github-graffiti);
+  }
+
+  .name {
+    color: var(--white);
+  }
+}

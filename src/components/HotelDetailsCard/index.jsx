@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import { formatCurrency } from '../../utils';
 import styles from './style.module.css';
 
@@ -26,6 +28,9 @@ function HotelDetailsCard({ hotel }) {
           <h3>Itens e Serviços Oferecidos</h3>
           <ul>{hotel.services}.</ul>
         </div>
+        <Link className={styles.reserveButton} to={`/reservations/${hotel.id}`}>
+          Reservar
+        </Link>
       </div>
     </article>
   );

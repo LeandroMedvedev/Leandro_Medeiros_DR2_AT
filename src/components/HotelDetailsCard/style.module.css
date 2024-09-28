@@ -45,6 +45,30 @@
   object-fit: cover;
 }
 
+.reserveButton {
+  padding: 10px 20px;
+  border: 1px solid var(--ubuntu-orange);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: var(--font-montserrat);
+  text-align: center;
+  text-decoration: none;
+  transition:
+    background-color 0.8s ease,
+    color 0.8s ease,
+    border 0.8s ease;
+  background-color: var(--ubuntu-orange);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.reserveButton:hover {
+  background-color: var(--white);
+  color: var(--ubuntu-orange);
+  border: 1px solid var(--ubuntu-orange);
+}
+
 @media (min-width: 768px) {
   .image {
     max-width: 400px;
@@ -87,5 +111,15 @@
     align-items: flex-start;
     gap: 30px;
     font-size: 1.5rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: var(--github-graffiti);
+  }
+
+  .textContainer {
+    color: var(--white);
   }
 }
