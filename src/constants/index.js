@@ -361,7 +361,7 @@ const HOTELS = [
   },
   {
     id: 22,
-    name: 'Hotel Mercure Paris',
+    name: 'Hotel Mercure',
     location: 'Paris, França',
     price: 280,
     rating: 4.5,

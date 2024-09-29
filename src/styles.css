@@ -83,7 +83,8 @@ p {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
+  body,
+  .App {
     background-color: var(--ebony);
     color: var(--white);
   }

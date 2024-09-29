@@ -5,4 +5,15 @@ function formatCurrency(value, currency = 'BRL', locale = 'pt-BR') {
   }).format(value);
 }
 
-export { formatCurrency };
+function useHotelStorage() {
+  const addHotelToStorage = (newHotel) => {
+    const storedHotels = localStorage.getItem('hotels');
+    const hotels = storedHotels ? JSON.parse(storedHotels) : [];
+
+    localStorage.setItem('hotels', JSON.stringify([...hotels, newHotel]));
+  };
+
+  return { addHotelToStorage };
+}
+
+export { formatCurrency, useHotelStorage };
